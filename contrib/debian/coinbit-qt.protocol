@@ -1,0 +1,11 @@
+[Protocol]
+exec=coinbit-qt '%u'
+protocol=coinbit
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

@@ -1,0 +1,33 @@
+# /etc/conf.d/coinbitd: config file for /etc/init.d/coinbitd
+
+# Config file location
+#COINBITD_CONFIGFILE="/etc/coinbit/coinbit.conf"
+
+# What directory to write pidfile to?  (created and owned by $COINBITD_USER)
+#COINBITD_PIDDIR="/var/run/coinbitd"
+
+# What filename to give the pidfile
+#COINBITD_PIDFILE="${COINBITD_PIDDIR}/coinbitd.pid"
+
+# Where to write coinbitd data (be mindful that the blockchain is large)
+#COINBITD_DATADIR="/var/lib/coinbitd"
+
+# User and group to own coinbitd process
+#COINBITD_USER="coinbit"
+#COINBITD_GROUP="coinbit"
+
+# Path to coinbitd executable
+#COINBITD_BIN="/usr/bin/coinbitd"
+
+# Nice value to run coinbitd under
+#COINBITD_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#COINBITD_OPTS=""
+
+# The timeout in seconds OpenRC will wait for coinbitd to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+COINBITD_SIGTERM_TIMEOUT=60

@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Name=Coinbit Core
+Comment=Connect to the Coinbit P2P Network
+Comment[de]=Verbinde mit dem Coinbit peer-to-peer Netzwerk
+Comment[fr]=Coinbit, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Coinbit, eşten eşe kriptografik sanal para birimi
+Exec=coinbit-qt %u
+Terminal=false
+Type=Application
+Icon=coinbit128
+MimeType=x-scheme-handler/coinbit;
+Categories=Office;Finance;
+StartupWMClass=Coinbit-qt

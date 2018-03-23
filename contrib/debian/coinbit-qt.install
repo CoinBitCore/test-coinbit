@@ -1,0 +1,6 @@
+usr/local/bin/coinbit-qt usr/bin
+share/pixmaps/coinbit32.xpm usr/share/pixmaps
+share/pixmaps/coinbit16.xpm usr/share/pixmaps
+share/pixmaps/coinbit128.png usr/share/pixmaps
+debian/coinbit-qt.desktop usr/share/applications
+debian/coinbit-qt.protocol usr/share/kde4/services/

@@ -1,10 +1,10 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2017 The Bitcoin Core developers
+// Copyright (c) 2009-2017 The Coinbit Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_WALLET_INIT_H
-#define BITCOIN_WALLET_INIT_H
+#ifndef COINBIT_WALLET_INIT_H
+#define COINBIT_WALLET_INIT_H
 
 #include <string>
 
@@ -40,4 +40,4 @@ void StopWallets();
 //! Close all wallets.
 void CloseWallets();
 
-#endif // BITCOIN_WALLET_INIT_H
+#endif // COINBIT_WALLET_INIT_H
